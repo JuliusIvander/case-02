@@ -1,0 +1,7 @@
+CREATE TABLE users(
+    id VARCHAR(100) PRIMARY KEY,
+    nama VARCHAR(100) NOT NULL UNIQUE,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    nomorhp VARCHAR(100) NOT NULL UNIQUE,
+    pekerjaan varchar(25) NOT NULL
+);
